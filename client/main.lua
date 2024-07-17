@@ -26,7 +26,6 @@ CreateThread(function()
                         event = "qb-payment:openPaymentUI",
                         icon = "fas fa-money-bill-alt",
                         label = "Pay Bill",
-                        job = business
                     }
                 },
                 distance = 1.5
