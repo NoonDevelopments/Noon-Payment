@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="register" style="display: none;">
+        <img id="businessLogo" src="" alt="Business Logo" class="business-logo">
+        <h1>Register</h1>
+        <div id="itemContainer"></div>
+        <ul id="itemList"></ul>
+        <p>Total: $<span id="totalAmount">0</span></p>
+        <button class="button confirm" onclick="confirmBill()">Confirm</button>
+    </div>
+    <div id="payment" style="display: none;">
+        <img id="businessLogoPayment" src="" alt="Business Logo" class="business-logo">
+        <h1>Pay Bills</h1>
+        <div id="billList"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
